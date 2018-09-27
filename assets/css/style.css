@@ -1,0 +1,117 @@
+body{
+    box-sizing: border-box;
+    text-align: center;
+    background:rgb(228, 207, 180);
+
+  }
+
+#topContainer{
+    width:100%;
+    overflow:auto;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    background: white;
+
+}
+#nameTop{
+    position: relative;
+    background: teal;
+    padding: 25px;
+    color: white;
+    left: 15%;
+    font-size: 25px;
+    width: 17%; /* get width to size of contents? LOOK UP*/
+    top: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+#navBar{
+    position: absolute;
+    padding: 29px;
+    font-size: 17px;
+    left: 64%;
+    top:0px;
+    width: 25%;
+    margin:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:normal;
+}
+#belowHead{
+    position: relative;
+    width: 100%;
+    top: 76px;
+    overflow: auto;
+
+}
+/* display inline block? */
+#content{
+    width: 70%;
+    margin-left: 15%;
+    border: 1px solid grey;
+    margin-top: 20px;
+    background:white;
+}
+.abtme{
+    float: left;
+    width: 90%;
+    padding: 20px 0px 20px 0px;
+    margin-left: 5%;
+
+    font-size: 23px;
+    color: teal;
+    border-bottom: 2px solid grey;
+}
+.contDiv{
+    clear:both;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+    overflow: auto;
+}
+img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.bioText{
+    font-family: 'Amaranth', sans-serif;
+    text-align: left;
+    line-height: 2;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a{
+    font-style: normal;
+    text-decoration: none;
+}
+.request{
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+
+.inp{
+    clear: both;
+    float: left;
+    margin-bottom:10px;
+    font-size: 18px;
+    width:100%;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#msg{
+    height:350px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#submit{
+    width:15%;
+    height:30px;
+    background: teal;
+    color:white;
+    
+}
