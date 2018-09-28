@@ -1,15 +1,9 @@
-html{
-    height:100%;
-    margin:0px;
-}
 body{
     box-sizing: border-box;
     text-align: center;
     /* background:rgb(228, 207, 180); */
     background-image: url("../images/background.jpg");
-    padding: 0px;
-    margin:0px;
-    height: 100%;
+    margin-bottom: 30px;
 
   }
 .topbackground{
@@ -62,11 +56,8 @@ body{
     position: relative;
     width: 960px;
     top: 30px;
+    overflow: auto;
     margin: auto; 
-    height:100%;
-    margin-bottom: -50px;
-    
-
 }
 /* display inline block? */
 .content{
@@ -74,7 +65,6 @@ body{
     border: 1px solid rgb(102, 102, 102);
     margin-top: 0px;
     background:white;
-    
 }
 .abtme{
     float: left;
@@ -210,18 +200,4 @@ a{
 }
 .portim{
     color:black;
-}
-.push,
-.foot{
-    height: 50px;
-
-}
-.foot{
-    width: 100%;
-    background: white;
-    margin-bottom:0px;
-    color: rgb(102, 102, 102);
-    padding: 13px;
-    font-size: 24px;
-    border-top: 3px solid rgb(102, 102, 102);
 }
