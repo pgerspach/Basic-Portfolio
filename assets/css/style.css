@@ -115,6 +115,8 @@ a{
     text-decoration: none;
     color: #ef7e51;
     font-size: 18px;
+    margin-left:5px;
+    margin-right: 5px;
 }
 .request{
     float: left;
