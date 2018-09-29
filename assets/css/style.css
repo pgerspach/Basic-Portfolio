@@ -232,12 +232,14 @@ a:hover{
 
 }
 .foot{
+    box-sizing: border-box;
     width: 100%;
     background: white;
-    margin-top: 20px;
+    margin-top: 70px;
     margin-bottom:0px;
+    height: 65px;
     color: rgb(102, 102, 102);
-    padding: 13px;
+    padding: 20px;
     font-size: 24px;
     border-top: 3px solid rgb(102, 102, 102);
 }
