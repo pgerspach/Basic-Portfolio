@@ -4,7 +4,7 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden; /*just keep width to browser width-ignore anything over*/
 }
 body{
     box-sizing: border-box;
@@ -63,11 +63,12 @@ body{
 }
 .belowHead{
     clear:both;
-    position: relative;
     width: 960px;
-    top: 30px;
+    /* position: relative;
+    top: 30px; */      /*if something screws up put this back*/
     margin: auto; 
-    height:100%;
+    margin-top: 30px;
+    overflow:auto;   /* used to have height: 100% but that messed up when the browser was resized */
     margin-bottom: -50px;
     
 
@@ -78,6 +79,7 @@ body{
     border: 1px solid rgb(102, 102, 102);
     margin-top: 0px;
     background:white;
+    
     
 }
 .abtme{
@@ -104,7 +106,7 @@ img{
     margin-bottom: 20px;
 }
 .bioText{
-    /* font-family: 'Amaranth', sans-serif; */
+    /* font-family: 'Amaranth', sans-serif; */ /*i liked this font*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
     font-size: 18px;
@@ -226,12 +228,13 @@ a:hover{
 }
 .push,
 .foot{
-    height: 50px;
+    height: 50px;   /* makes sticky footer work, dont ask why just cherish it*/
 
 }
 .foot{
     width: 100%;
     background: white;
+    margin-top: 20px;
     margin-bottom:0px;
     color: rgb(102, 102, 102);
     padding: 13px;
